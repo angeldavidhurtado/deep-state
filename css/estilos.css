@@ -65,6 +65,14 @@ header nav ul li a:hover {
     padding: 40px;
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 26px;
+    line-height: 36px;
+    color: #424242;
+}
+
 h2 {
     margin-bottom: 20px;
     color: #424242;
@@ -72,17 +80,17 @@ h2 {
 
 .primero { margin-top: 0; }
 
-.main .posts article {
+.main .posts > div {
     padding: 40px 0 20px;
 }
 
-.main .posts article p {
+.main .posts > div p {
     line-height: 27px;
     margin-top: 20px;
 }
 
 
-.main .posts article p:nth-child(2) {
+.main .posts > div p:nth-child(2) {
     margin-top: 0;
 }
 
