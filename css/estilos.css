@@ -66,12 +66,15 @@ header nav ul li a:hover {
 }
 
 h2 {
-    margin-top: 60px;
     margin-bottom: 20px;
     color: #424242;
 }
 
 .primero { margin-top: 0; }
+
+.main .posts article {
+    padding: 40px 0 20px;
+}
 
 .main .posts article p {
     line-height: 27px;
